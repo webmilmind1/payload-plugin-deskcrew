@@ -1,0 +1,55 @@
+{
+  "name": "payload-plugin-deskcrew",
+  "version": "1.0.0",
+  "description": "Plugin for Payload-powered sites: new documents in chosen collections (contact forms, feedback, support requests) become DeskCrew support tickets.",
+  "keywords": [
+    "payload",
+    "payload-plugin",
+    "payloadcms",
+    "headless cms",
+    "contact form",
+    "form to ticket",
+    "support",
+    "helpdesk",
+    "help desk",
+    "customer support",
+    "live chat",
+    "ai support",
+    "ticketing",
+    "support tickets",
+    "knowledge base",
+    "deskcrew"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmilmind1/payload-plugin-deskcrew.git"
+  },
+  "homepage": "https://deskcrew.io/integrations/payload-cms",
+  "bugs": {
+    "url": "https://github.com/webmilmind1/payload-plugin-deskcrew/issues",
+    "email": "hello@deskcrew.io"
+  },
+  "author": "DeskCrew <hello@deskcrew.io> (https://deskcrew.io)",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "payload": ">=2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
